@@ -5,6 +5,7 @@ var RAMP_DURATION = 1
 
 module.exports = function (options) {
   if (!options) options = {}
+  window.AudioContext = window.AudioContext || window.webkitAudioContext
   var context = options.context || new window.AudioContext()
   var frequency = options.frequency || FREQUENCY
   var interval = options.interval || INTERVAL
