@@ -1,6 +1,6 @@
 {
   "name": "browser-beep",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Beeping sound in browser using Web Audio API",
   "main": "index.js",
   "scripts": {
